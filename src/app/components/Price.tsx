@@ -72,6 +72,7 @@ const Price: React.FC<Props> = ({price, id, options}) => {
         <button className='uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500 rounded-md'>Add to Cart</button>
 
       </div>
+      {id}
     </div>
   )
 }
